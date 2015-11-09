@@ -1,0 +1,18 @@
+
+include('user.php');
+
+class Animal{
+	public $sobriquet;
+	public $sciName='hdaukenensis ';
+	
+	public function __constructor(){
+		echo 'animal';
+	}
+
+}
+
+echo $_SERVER['REQUEST_METHOD'];
+echo 'test';
+echo (new Animal())->sciName;
+echo (new User())->name;
+
